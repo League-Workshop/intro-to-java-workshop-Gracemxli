@@ -7,9 +7,16 @@ public class MyFirstJavaProgram {
 	
 	public static void main(String[] args) {
 		
-		// START HERE
-	
-		
-		
+		Robot Rob = new Robot ();
+		Rob.penDown();
+		Rob.setSpeed(100);
+		Rob.move(100);
+		Rob.turn(90);
+		Rob.move(100);
+		Rob.turn(90);
+		Rob.move(100);
+		Rob.turn(90);
+		Rob.move(100);
+		Rob.turn(90);
 	}
 }
